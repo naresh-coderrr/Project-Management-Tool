@@ -1,0 +1,199 @@
+S.No,Task,Technical,Primary,onsite / offshore,Remark,Tech Specification,Status,ETA,Delivery Date,% Completion
+DSD Project,,,,,,,,,,
+,Integration,,,,,ü,,,,
+1,PO and Requisition,Jagan / Banu,Mahesh,Jagan / Vijay / Suresh,"29/4 - The Flow is approved by Raj. Package Skelton is Completed. DB - Objects is worked on.
+30/4 - Main integration completed.  
+04/5 - pl/sql & integration will be completed tomorrow
+05/5 - tobe completed and release for testing. Need to connect with Jagan (onsite) and the tech issues. 
+07/5 - 3pm end-to-end testing
+8/5- 12pm end-to-end  testing with all the validation has to pass
+11/5 - code review by Mahesh
+12/5 - will be completed before 1pm - end to end testing at 4pm
+13/5 - unittesting - before 12pm
+14/5 - unittesting
+15/5 - Mahesh to work with DBAs on SOAP AIP permission issue
+18/5 - PR Number passing in PO Payload
+19/5- Process flow changing as it's standard pending
+20/5- Process flow changed -12pm
+27/5 - Notification Body and Subject changes
+29/5- Funtional Testing Dev Team
+01/6- Exception Notification Testing & TDD
+02/6- TDD and Objects Doc's
+03/6- DFF adding in Distribution level,TDD and Objects Doc's
+08/6- FBDI Summary with status need to need the User
+09/6- Exception Report Validation
+10/6- Buyer Not populating the PR Level and Change the Notification logic
+12/6- If one PO line failure the validation whole PO will Fail",,Functional testing,11-May-26,13-May-26,75%
+2,PO Receipt ,Ganesh / Prinal,Mahesh,Jagan / Vijay / Suresh,"27/5 - Notification Body and Subject changes
+29/5 - Funtional Testing Dev Team
+02/6- TDD and Objects Doc's
+03/6- TDD and Objects Doc's
+09/6- Exception Report Validation
+10/6- Reprocess Logic 
+11/6- Reprocess Logic ",,Functional testing,11-May-26,13-May-26,95%
+3,AR Invoice,"Raghu/Keerthi
+Ganesh",Keerthi,Jay / Lalith,"02/6- Testing with Lalith ,TDD and Objects Doc's
+03/6- Testing with Lalith ,TDD and Objects Doc's
+04/6- AR Package Recode
+08/6- Code Change to Generic,FBDI Properties change the surce from Table(Raghu)
+09/6- Exception Report Validation
+10/6- FBDI Properties changed the surce from Table",,Unit Testing,12-May-26,,25%
+4,AR Receipt ,Ganesh / Prinal,Prinal,Jay / Lalith,"30/4 - POC and to finalize the approach11-
+6/5 - targetting tomorrow to complete
+7/5 - 1st integration 50% - 2nd integration - 75% completed
+8/5- Development and unit testing with all the validations
+11/5 - Waiting on clarification 
+12/5 - end-to-end testing at 4pm
+13/5 - unittesting - 12pm
+14/5 - need to work on the new file. 
+15/5 - Mahesh to review the POC and confirm
+18/5 -  integration Exception Failing need to check 
+19/5 - Logic changed for Multiple Lines for Single Receipt
+20/5 - Testing 12pm
+25/5 - Prinal working on the testing fix
+29/5 - Prinal Exception for Email Logic
+01/6 - AR Receipt Update logic and TDD
+02/6- Testing  and Objects Doc's
+03/6- Date Issue,TDD and Objects Doc's
+04/6- Notification Issue
+05/6- Reprocess Logic Incorporate
+08/6- Notification Issue, Reprocess Logic Incorporate
+09/6- Testing Peding,Exception Report Validation
+12/6- Integration Procedure Cross Validation",ü,WIP,12-May-26,,15%
+5,Customers,Siva / Jagan,Sivakumar,Jay / Lalith,"29/4 - Jagan - Customer party & cust account / sites - found the API
+30/4 - Jagan - to work on Profiles
+6/5 - Jagan to complete design before 4pm
+7/5 - Jagan to check the update for NULL columns
+8/5 - Raj get the ETA from Siva - Targeting to complete by 13th. Deliver to client is on 15th
+12/5 - integration will be completed by 4pm
+13/5 - need to fix cust account creation
+14/5 - end to end testing - 5pm. code review by Mahesh
+15/5 - end to end testing - 4pm
+18/5 - Testing for all scenarios(Test Case Failed for BilltoNo Is '0')
+19/5 - Fix and Testing for BilltoNo Is '0'
+20/5 - Testing 12pm
+25/5 - Jagan working on the fix
+26/5 - Jagan working on the fix Primary address should fetch as per Bill-to address
+27/5 -  Adding funtionality in Exiting code fo Customer Account level
+29/5 -New Logic has to implement
+01/6- Cust Accouts Multiple Creation and Primary Address logic change
+02/6- Testing,TDD and Objects Doc's
+03/6- Update on Customers Work
+05/6-Bill-To ,Ship To Linking and Reveiw the Integration by Mahesh.
+08/6- Billto and Ship to Association required,Full name at Description for Account Level after DSD_
+09/6- Status UpdateBack to Stage,Exception Report Validation
+10/6- Excepion Report change to Excel
+11/6- Reprocess Logic and Exception for individual Cust Accounts",,WIP,13-May-26,,5%
+6,GL Journal,Mahesh,Mahesh,Ravi / Kiran,"30/4 - started with Pl/sql
+7/5 - Mahesh to deliver to functional team
+13/5 - date fix
+02/6- TDD and Objects Doc's
+03/6- Notification Tested,TDD and Objects Doc's
+08/6- Notification Job id Not correctly",,Functional testing,7-May-26,7-May-26,100%
+7,Singapore APEX Changes,Ganesh,Mahesh,Jay,"02/6- AR Data Validation Process
+03/6- Lines Item Development
+04/6- Desc,PO Number Logic Incorporate",,Functional testing,,,
+,OutBound / BIP,,,,,,,,,
+7,AP Payment,Rajesh / Mahesh,Mahesh,Ayush / Vijay,"29/4 - BIP Report completed and pushed to Funcational Floks 
+30/4 - to release it for functional testing
+5/5 - Need to check the scheduled picking of dupliate reords",,Functional Testing,,30-Apr-26,100%
+8,AR Receipt,Keerthi,Keerthi,Jay / Lalith,"30/4 - Assinged to Keerthi 
+30/4 - Waiting for testdata for write-off 
+04/5 - Tested with the given testdata only for TWC BU 
+05/5 - Additional Specification given from lalith to implement in report 
+7/5- Get the New Requirement.
+11/5 - customer details missing - check
+15/5 - code review and release for functional testing
+18/5 - code review and release for functional testing
+21/5- Changes for write-off lines
+26/5 -  Fixing the Bug
+29//5 - DSD <> attribute2
+05/6 - Write off Column need to remove and Sum the Invoice amount
+10/6- Receipt Method Need to Point Specific Method",,Functional testing,4-May-26,,100%
+,,,,,,,,,,
+,BIP,,,,,,,,,
+15,Budget Variances,Keerthi,Keerthi,Radhika,"30/4 - Assinged to Keerthi
+05/5 - Report completed waiting for siva review feed back and for internall testing roles need to be added 
+11/5 - Need to deliver today
+15/5 - layout change has to be made 
+18/5 - Developent pending
+19/5 - Delivered to 
+20/5 - Need to add column and validate the data and layout 
+21/5- Multiple selection more than 3 data not coming
+22/5- Delivered need to change the layout from rtf to excel
+27/5 - Raj to work with Keerthi
+01/6- Actual Cost Fix
+03/6- Approach changed for Expenditures
+10/6-",,WIP,7-May-26,,45
+,,,,,,,,,,
+,IC-Recharge,Ganesh,Sivakumar,,"Need to migrate to WON - completed on 27-May
+1/6 - Notification issue
+02/6- TDD and Objects Doc's
+03/6- TDD and Objects Doc's
+04/6- Minor Changes confirm with Siva
+05/6 - Changes in Extract Logic
+08/6- Report changes (Prinal),Code changes(Ganesh)",,Done,,,
+,,,,,,,,,,
+,AP Account coding,Mahesh,,,"Need to check the design
+18/5 - Development Pending
+19/5 - Fix and Delivery for Functional Testing
+27/5 Kumara Bucket
+04/6- Need to work with Nagesh to resolve issue",,Functional testing,,,
+,,,,,,,,,,
+,TWC Asset Dts,Jagan,,,"Need to check with Vijay
+18/5 - Development Pending
+19/5 - Unit Testing
+21/5- Need to work on LOV for Company",,Functional testing,,,
+,,,,,,,,,,
+,,,,,,,,,,
+Wave - 3.1 PROD Support  Project,,,,,,,,,,
+,Integration,,,,,,,,,
+,,,,,,,,,,
+,Lara,Banu,,Jay,"21/5 - Code changes in PLSQL
+22/5 - Got one more issue
+Prepare Miigration Docs
+05/6- Changes 
+11/6- Tested Raj and Jay",,Pending for Migration to Prod,,,
+,,,,,,,,,,
+,Jobs,Banu,,Jay,"21/5 - Need to work
+22/5- Unit Testing
+27/5 - Prepare Miigration Docs
+10/6- Prod Issue",,Pending for Migration to Test,,,
+,,,,,,,,,,
+,TIMS,Ganesh,,Jay,"21/5 - Respose need to apply for single line Invoice
+27/- Need to create Test Cases
+12/6- Logic Changes ",,WIP,,,
+,,,,,,,,,,
+,VMS,Ganesh,,Manikanta,10/6- VMS Generalization,,Functional testing,,,
+,,,,,,,,,,
+,Sailing Schedule,Ganesh ,,Jay,"27/5 - task end date fix
+27/5 - Prepare Miigration Docs
+11/6- Tested Raj and Jay",,Pending for Migration to Prod,,,
+,,,,,,,,,,
+,NPD Unpaid Invoices Extract Report,Keerthi,,Sriharika,"26/5 - Fixing the BU Name in Lov
+",,Done,,,
+,,,,,,,,,,
+,VAT,Dinesh,,Manikanta,10/6 - VAT Fixes,,on hold,,,
+,,,,,,,,,,
+,AR Invoice Print Report,Keerthi,,Venkat,"29/5 - AS3 BU and Cash Customer Logic Changes in Report Level
+02/6- Prod Issues for AS3
+03/6- Prod Issues for AS3
+04/6-Venkat confirm with User",,WIP,,,
+,,,,,,,,,,
+,Payment file notifications,Dinesh/Banu,,Sriharika,08/06 - Waiting on design document,,WIP,,,
+,,,,,,,,,,
+Wave - 3.2 Project,,,,,,,,,,
+,Integration,,,,,,,,,
+,Posted WIP,Jagan,,Jay,27/5 - Need to analyse why it is not working for 3.2 BU,,Inform to Raj,,,
+,,,,,,,,,,
+,AR Print Report,Keerthi,,Venkat,Development og Wave 3.2,,,,,
+,,,,,,,,,,
+,AR Customer,Keerthi,,Venkat,Development og Wave 3.2,,Functional testing,,,
+,,,,,,,,,,
+,AR Receipt ,Keerthi,,Venkat,Development og Wave 3.2,,Functional testing,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+, ,,,,,,,,,
